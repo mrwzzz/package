@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<!-- 
+	根元素
+ -->
+<struts>
+
+	
+	<include file="com/loginAction/cn/loginAction-struts.xml"></include>
+	
+	<include file="com/test/cn/strutsTest.xml"></include>
+	<include file="com/itemDAOaction/cn/itemDAO-Struts2.xml"></include>
+ <include file="com/personalPage/cn/PersonalPage-struts.xml"></include>
+	
+</struts>
